@@ -8,33 +8,38 @@
 <body>
     <p>Ubuntu Server-PHP deployment- Maria Lourdes Cabingas</p>
 </body>
-
 <div>
     <label>Firstname:</label>
-    <input type="text"> name="firstname" class="form-control">
+    <input type="text" name="firstname" class="form-control">
 </div>
+
 <div>
-    <label>Middle:</label>
-    <input type="text"> name="iddle" class="form-control">
+    <label>Middlename:</label>
+    <input type="text" name="middlename" class="form-control">
 </div>
+
 <div>
     <label>Lastname:</label>
-    <input type="text"> name="lastname" class="form-control">
+    <input type="text" name="lastname" class="form-control">
 </div>
 <div>
     <label>Age:</label>
-    <input type="text"> name="age" class="form-control">
+    <input type="text" name="age" class="form-control">
 </div>
+
 <div>
     <label>Address:</label>
-    <input type="text"> name="address" class="form-control">
+    <input type="text" name="address" class="form-control">
 </div>
+
 <div>
     <label>Course&Section:</label>
-    <input type="text"> name="course&section" class="form-control">
+    <input type="text" name="course&section" class="form-control">
 </div>
-<input type="submit" name="submit" value="Submit">
 
+<div>
+    <input type="submit" value="Submit" class="form-control">
+</div>
 </html>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
